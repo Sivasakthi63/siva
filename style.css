@@ -1,0 +1,122 @@
+
+body,h2 {
+    margin:0;
+    font-family:"poppins",sans-serif;
+}
+.landing {
+    background-image:url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+header a {
+    text-decoration: none;
+    color:orangered;
+    min-width: 120px;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+#logo {
+    flex:3;
+    font-size:1.25em;
+    min-width: 260px;
+}
+nav {
+    flex:2;
+    display:flex;
+    align-items: center;
+}
+nav a {
+    flex:1;
+}
+nav a:hover {
+    color:green;
+}
+.Maintext {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1 {
+    color: red;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2 {
+    color:rgb(215, 61, 105);
+}
+.Maintext div {
+    margin-top:.75em;
+    color: white;
+}
+.Maintext button {
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color:rgb(236, 136, 93);
+    color:white;
+    border: 1px solid green;
+}
+.Menu {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    background:linear-gradient(to right,rgb(172, 162, 162),rgb(172, 162, 162));
+    color:white;
+}
+#Menuheading,#locationheading {
+    background:linear-gradient(to right,rgb(183, 177, 177),rgb(183, 177, 177));
+    font-size: 2.5em;
+    color:rgb(72, 69, 69);
+    display: flex;
+    justify-content: center;
+}
+.Menu th {
+    color:rgb(66, 53, 53);
+    font-size: 1.8em;
+}
+table {
+    width: 100%;
+    padding: 1em;
+}
+.Menu tr {
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+    color:black;
+}
+.Menu td:nth-child(1) {
+    flex: 1;
+    justify-self: left;
+}
+.Menu td:nth-child(2) {
+    justify-content: right;
+}
+.Maincourse {
+    grid-row: span 2;
+}
+.Locations {
+    background: linear-gradient(to right,rgb(231, 88, 53),rgb(218, 123, 120));
+    color:black;
+    display: flex;
+}
+.Locations h2 {
+    color:rgb(255, 67, 67);
+    margin-bottom: .8em;
+}
+.Locations div {
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+footer {
+    background-color: rgb(63, 53, 53);
+    color:white;
+    padding: 1em;
+}
